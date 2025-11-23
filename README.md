@@ -48,12 +48,14 @@
 ##### Клонировать репозиторий
 ```bash
 git clone https://github.com/cQu1x/Avito_Internship
+cd AvitoInternship
 ```
 ##### Забилдить проект
 ```bash
 docker-compose -f deploy/docker-compose.yml build app
 docker compose -f deploy/docker-compose.yml up -d
 ```
+Если при первом билде будет ошибка, связанная с workdir/app, то забилдить еще раз - должна пропасть :)  
 ##### Запустить сервер
 ```bash
 go run cmd/main.go
