@@ -44,10 +44,18 @@
 - Docker
 - Docker Compose
 
-Быстрый старт
+###Быстрый старт
+##### Клонировать репозиторий
+```bash
+git clone https://github.com/cQu1x/Avito_Internship
+```
+##### Забилдить проект
 ```bash
 docker-compose -f deploy/docker-compose.yml build app
 docker compose -f deploy/docker-compose.yml up -d
+```
+##### Запустить сервер
+```bash
 go run cmd/main.go
 ```
 
