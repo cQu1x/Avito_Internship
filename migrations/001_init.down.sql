@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS pull_request_reviewer;
+DROP TABLE IF EXISTS pull_request;
+DROP TABLE IF EXISTS user;
+DROP TABLE IF EXISTS team;
